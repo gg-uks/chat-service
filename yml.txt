@@ -24,7 +24,7 @@ spring:
         registration:
           kakao:
             client-id: 6d0d2c35bb85b414da6b6bf96156333f
-            client-secret : QvMpq738bImKFkkEYBNbmayT7ylsguTv
+            client-secret : 카카오시크릿키
             scope:
               - profile_nickname
               - account_email
@@ -38,7 +38,7 @@ spring:
             authorization-grant-type: authorization_code
             client-authentication-method: client_secret_post
           google:
-            client-id: 731196719291-oe356tab8b4buis0vsfmsdff08kngm62.apps.googleusercontent.com
+            client-id: 구글 시크릿키
             client-secret: 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
             scope:
               - email
